@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg"
+    tools:context=".activity_register">
+
+
+    <ImageView
+        android:id="@+id/backKiri_SignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-170dp"
+        android:layout_marginTop="-50dp"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:layout_width="133dp"
+        android:layout_height="121dp"
+        android:layout_marginTop="70dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="0dp"
+        android:text="Sign Up"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Silahkan Melakukan Register Dahulu"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"/>
+
+
+    <EditText
+        android:id="@+id/editTextTextUsernameApp"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="25dp"
+        android:hint="Username App"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/editTextTextUsernameGitHub"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_margin="5dp"
+        android:hint="Username GitHub"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress5"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_margin="5dp"
+        android:hint="Email"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"/>
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="340dp"
+        android:layout_height="58dp"
+        android:layout_margin="5dp"
+        android:hint="Password"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:backgroundTint="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/button_signUp"
+        android:layout_width="337dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Sign Up"
+        android:textAllCaps="false"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Sudah punya akun?"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/text_bottomLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="10dp"
+            android:text="Login"
+            android:textColor="#FFFFFF"/>
+    </LinearLayout>
+
+</LinearLayout>
